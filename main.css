@@ -1,0 +1,50 @@
+html {
+  background: lightblue;
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+  height: 35px;
+}
+
+.form_box {
+  background: white;
+  padding: 0px 40px;
+  width: 360px;
+  margin: 0px auto;
+  border-radius: 2px;
+}
+
+.form_title {
+  text-align: center;
+  color: grey;
+  padding: 30px 0;
+  font-size: 2.5em;
+  font-weight: normal;
+}
+
+.input_title {
+  padding: 15px 0;
+}
+
+.main_form input {
+  width: 303px;
+  height: 38px;
+  padding: 15px;
+  border: 2px solid lightgrey;
+  border-radius: 3px;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+button {
+  background: green;
+  color: white;
+  width: 303px;
+  height: 38px;
+  padding: 15px;
+}
+
+button:hover {
+  background: darkgreen;
+}
