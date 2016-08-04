@@ -1,50 +1,52 @@
 html {
-  background: lightblue;
+  background:rgb(79, 141, 233);
   font-family: 'Roboto', sans-serif;
 }
 
 .logo {
   height: 35px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  display: block;
 }
 
-.form_box {
+.main_form {
   background: white;
-  padding: 0px 40px;
+  padding: 40px;
   width: 360px;
-  margin: 0px auto;
-  border-radius: 2px;
+  margin: 0 auto;
+  border-radius: 4px;
 }
 
 .form_title {
   text-align: center;
+  margin: 0 auto 45px;
   color: grey;
-  padding: 30px 0;
-  font-size: 2.5em;
-  font-weight: normal;
-}
-
-.input_title {
-  padding: 15px 0;
+  font-size: 2.25em;
 }
 
 .main_form input {
-  width: 303px;
-  height: 38px;
+  width: 320px;
+  height: 25px;
+  margin: 20px auto;
   padding: 15px;
   border: 2px solid lightgrey;
   border-radius: 3px;
-  font-size: 1.5em;
-  font-weight: normal;
+  font-size: 1.25em;
 }
 
 button {
-  background: green;
+  background:rgb(13, 224, 117);
   color: white;
-  width: 303px;
-  height: 38px;
-  padding: 15px;
+  width: 354px;
+  height: 65px;
+  font-size: 1.5em;
+  border-radius: 5px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 button:hover {
-  background: darkgreen;
+  background: rgb(16, 189, 101);
 }

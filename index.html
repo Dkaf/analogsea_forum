@@ -8,18 +8,16 @@
   </head>
   <body>
     <main>
-      <img class ="logo"src="analogsealogo.png" alt="Analog Sea logo" />
-      <div class="form_box">
-        <h2 class="form_title">Sign up</h2>
+      <img class ="logo" src="analogsealogo.png" alt="Analog Sea logo" />
         <form class="main_form" action="/signup/" method="post">
-          <h2 class="input_title">Email</h2>
+          <legend class="form_title">Sign up</legend>
+          <label for="user_email">Email</label>
           <input type="email" name="user_email"  placeholder="foo@bar.com" id="user_email" required>
-          <h2 class="input_title">Password</h2>
+          <label for="password" >Password</label>
           <input type="password" name="password" placeholder="1234passw0rd" id="password" required>
-          <button type="submit" name="signup_button"></button>
+          <button type="submit"> Sign up</button>
         </form>
 
-    </div>
     </main>
   </body>
 </html>
